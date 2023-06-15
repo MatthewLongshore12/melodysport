@@ -1,0 +1,48 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 3%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.image {
+  position: relative;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+}
