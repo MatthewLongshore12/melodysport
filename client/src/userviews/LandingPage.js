@@ -1,5 +1,5 @@
 import React from 'react';
-import '../stylesheets/landing.css'
+// import '../stylesheets/landing.css'
 
 function LandingPage() {
   return (

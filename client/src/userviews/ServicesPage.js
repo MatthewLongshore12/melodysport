@@ -1,5 +1,5 @@
 import React from 'react';
-import '../stylesheets/services.css';
+// import '../stylesheets/services.css';
 
 function ServicesPage() {
 
